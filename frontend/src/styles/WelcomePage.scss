@@ -1,0 +1,74 @@
+.navbar {
+    display: inline-block;
+    float: right;
+    font-weight: bold;
+    color: #207da4;
+    margin: 0;
+    font-size: large;
+
+}
+
+.WelcomePage {
+    margin: auto;
+    height: 80%;
+    text-align: center;
+    margin-top: 50px;
+    min-width: 500px;
+}
+
+.body {
+    height: 80%;
+    width: 80%;
+    background-color: #d8ecff;
+    color: #25aae1;
+    margin-top: 100px;
+    text-align: left;
+    padding: 10%;
+    border-radius: 10px;
+}
+
+body {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    /* min-width: 500px; */
+}
+
+.logo {
+    float: left;
+    color: #2cade1;
+    font-weight: bold;
+    font-size: large;
+}
+
+button {
+    color: white;
+    background-color: #f4b942;
+    border-width: 0;
+    border-radius: 5px;
+    padding: 0.5em;
+    text-align: center;
+
+}
+
+.section2 {
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.pipe {
+    color: black;
+    font-weight: 200;
+}
+
+img {
+
+    width: 150px;
+    // top:50%;
+    // left:20%;
+    margin-left: 50%;
+}
