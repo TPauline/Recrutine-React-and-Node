@@ -1,0 +1,136 @@
+$body-width: 100%;
+$body-height: 100%;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-width: $body-width;
+}
+
+body {
+    height: $body-height;
+    width: $body-width;
+    margin: auto;
+    padding: auto;
+    /* min-width: 500px; */
+}
+
+.OccupationPage {
+    margin: auto;
+    height: 80%;
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+    min-width: 500px;
+}
+
+.occupation_body {
+    background-color: #d8ecff;
+        padding: 10%;
+    border-radius: 10px;
+    margin: auto;
+    height: 100%;
+}
+
+.body_all {
+    background-color: beige;
+
+    align-items: center;
+    display: flex;
+}
+
+
+button {
+    color: white;
+    background-color: #f4b942;
+    border-width: 0;
+    padding: 1em;
+    text-align: center;
+    margin: 5px;
+    font-size: xx-small;
+    display: block;
+    width: 130px;
+    margin: 30px;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+}
+
+.nav_section {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+h1 {
+    color: black;
+    font-size: 30px;
+}
+
+.occupation_body h1 {
+    color: #2cade1;
+    font-size: 30px;
+}
+
+
+.body_left {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    border-width: 0.5px;
+    border-color: gray;
+    border-right-style: solid;
+}
+
+.body_right {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    color: #2cade1;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    display: block;
+}
+
+
+.nav_section {
+    width: 100%;
+    text-align: center;
+}
+
+
+input {
+    border-width: 0;
+    border-radius: 5px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.body_right button {
+    width: 50px;
+    font-size: xx-small;
+    padding: 5px;
+    margin: auto;
+}
+
+.body_right span,
+.body_left span {
+    text-align: center;
+    color: #f4b942;
+    font-size: small;
+    font-weight: bold;
+    align-self: center;
+
+}

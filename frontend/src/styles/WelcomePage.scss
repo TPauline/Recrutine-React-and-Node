@@ -1,3 +1,28 @@
+$body-width: 100%;
+$body-height: 100%;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-width: $body-width;
+}
+
+body {
+    height: $body-height;
+    width: $body-width;
+    margin: auto;
+    padding: auto;
+    /* min-width: 500px; */
+}
+
+
+
 .navbar {
     display: inline-block;
     float: right;
@@ -11,6 +36,7 @@
 .WelcomePage {
     margin: auto;
     height: 80%;
+    width: 80%;
     text-align: center;
     margin-top: 50px;
     min-width: 500px;
@@ -21,18 +47,21 @@
     width: 80%;
     background-color: #d8ecff;
     color: #25aae1;
-    margin-top: 100px;
     text-align: left;
     padding: 10%;
     border-radius: 10px;
+    display: flex;
 }
 
-body {
-    height: 80%;
-    width: 80%;
-    margin: auto;
-    padding: auto;
-    /* min-width: 500px; */
+.body_left {
+    width: 50%;
+    align-items: center;
+}
+
+.body_right {
+    width: 50%;
+    align-items: center;
+    position: relative;
 }
 
 .logo {
@@ -45,19 +74,23 @@ body {
 button {
     color: white;
     background-color: #f4b942;
+    width: 100px;
+        margin: 10px;
     border-width: 0;
-    border-radius: 5px;
-    padding: 0.5em;
+    border-radius: 10px;
     text-align: center;
+  
 
 }
 
-.section2 {
+.nav_section {
     width: 100%;
+    margin-bottom: 50px;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 30px;
+    margin-bottom: 50px;
 }
 
 .pipe {
@@ -66,9 +99,12 @@ h1 {
 }
 
 img {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
 
-    width: 150px;
-    // top:50%;
-    // left:20%;
-    margin-left: 50%;
 }
+
+
