@@ -1,5 +1,5 @@
-$body-width: 100%;
-$body-height: 100%;
+$welcomeBody-width: 100%;
+$welcomeBody-height: 100%;
 
 * {
     padding: 0;
@@ -7,15 +7,15 @@ $body-height: 100%;
 }
 
 html,
-body {
+welcomeBody {
     margin: 0;
     padding: 0;
-    min-width: $body-width;
+    min-width: $welcomeBody-width;
 }
 
 body {
-    height: $body-height;
-    width: $body-width;
+    height: $welcomeBody-height;
+    width: $welcomeBody-width;
     margin: auto;
     padding: auto;
     /* min-width: 500px; */
@@ -23,7 +23,7 @@ body {
 
 
 
-.navbar {
+.welcomeNavBar {
     display: inline-block;
     float: right;
     font-weight: bold;
@@ -42,7 +42,7 @@ body {
     min-width: 500px;
 }
 
-.body {
+.welcomeBody {
     height: 80%;
     width: 80%;
     background-color: #d8ecff;
@@ -53,44 +53,46 @@ body {
     display: flex;
 }
 
-.body_left {
+.welcomeBodyLeft {
     width: 50%;
     align-items: center;
 }
 
-.body_right {
+.welcomeBodyRight {
     width: 50%;
     align-items: center;
     position: relative;
 }
 
-.logo {
+.welcomeLogo {
     float: left;
     color: #2cade1;
     font-weight: bold;
     font-size: large;
 }
 
-button {
+.welcomeBodyLeft button {
     color: white;
     background-color: #f4b942;
     width: 100px;
-        margin: 10px;
+    margin: 10px;
     border-width: 0;
     border-radius: 10px;
     text-align: center;
-  
+    float: left;
 
 }
 
-.nav_section {
+.welcomeNavSection {
     width: 100%;
     margin-bottom: 50px;
 }
 
-h1 {
+.welcomeBodyLeft h1 {
     font-size: 30px;
     margin-bottom: 50px;
+    color: #2cade1;
+    display: b;
 }
 
 .pipe {
@@ -106,5 +108,3 @@ img {
     bottom: 0px;
 
 }
-
-
