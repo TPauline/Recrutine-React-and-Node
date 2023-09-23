@@ -12,7 +12,6 @@ function WelcomePage() {
       <div className='welcomeNavSection'>
         <span className='welcomeLogo'>Recturine</span> <div className="welcomeNavBar"> <span>Product</span> <span>Resources</span> <span>Careers</span> <span className='pipe'>&#124;</span> <span>Log In</span> <span>Sign Up</span> </div>
       </div>
-
       <div className='welcomeBody'>
         <div className="welcomeBodyLeft">
           <h1>Enter the chatroom, <br /> to your future career.</h1>
@@ -24,8 +23,6 @@ function WelcomePage() {
         </div>
 
       </div>
-
-
     </div>
   );
 }
