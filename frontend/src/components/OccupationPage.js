@@ -11,13 +11,13 @@ function OccupationPage() {
                     <span className='logo'>Recturine</span>
                 </div>
                 <h1>Let's get Connecting.</h1>
-                <div className="body_all">
-                    <div className="body_left">
+                <div className="occupationBodyLF">
+                    <div className="occupationBodyLeft">
                         <div><span>You are...</span></div>
                         <button>A student</button>
                         <button>A working professional</button>
                     </div>
-                    <div className="body_right">
+                    <div className="occupationBodyRight">
                         <div><span>Log back in!</span></div>
                         <input type="text" />
                         <input type="text" />

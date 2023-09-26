@@ -1,66 +1,64 @@
-$body-width: 100%;
-$body-height: 100%;
+$occupationBody-width: 100%;
+$occupationBody-height: 100%;
 
-* {
+@debug "hiii";
+
+*,html,body {
     padding: 0;
     margin: 0;
-}
 
-html,
-body {
-    margin: 0;
-    padding: 0;
-    min-width: $body-width;
 }
+html{    height: 100%;    width:100%;}
+
 
 body {
-    height: $body-height;
-    width: $body-width;
-    margin: auto;
+ 
+    height : $occupationBody-height;
+    width: $occupationBody-width;
+   margin: auto;
     padding: auto;
-    /* min-width: 500px; */
+    background-color: white;
+     min-height: 500px;
 }
+
+
 
 .OccupationPage {
-    margin: auto;
+  margin: auto, 5%;
     height: 80%;
     width: 80%;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20vh;
     min-width: 500px;
+    align-items: center;
+        padding: 5%;
+       
+
 }
 
 .occupation_body {
-    background-color: #d8ecff;
-        padding: 10%;
-    border-radius: 10px;
-    margin: auto;
     height: 100%;
+    width: 100%;
+    background-color: #d8ecff;
+    color: #25aae1;
+    text-align: center;
+    padding: 5%;
+    border-radius: 10px;
+
 }
 
-.body_all {
-    background-color: beige;
-
+.occupationBodyLF {
+    height: 100%;
+    width: 90%;
+    // background-color: beige;
     align-items: center;
-    display: flex;
-}
-
-
-button {
-    color: white;
-    background-color: #f4b942;
-    border-width: 0;
-    padding: 1em;
-    text-align: center;
-    margin: 5px;
-    font-size: xx-small;
-    display: block;
-    width: 130px;
-    margin: 30px;
-    border-radius: 8px;
-    text-align: center;
     margin: auto;
+    display: flex;
+    padding: 5%;
+
 }
+
+
 
 .nav_section {
     width: 100%;
@@ -79,16 +77,17 @@ h1 {
 }
 
 
-.body_left {
+.occupationBodyLeft {
     width: 50%;
     height: 100%;
     align-items: center;
     border-width: 0.5px;
-    border-color: gray;
+    border-color: darkcyan;
+    
     border-right-style: solid;
 }
 
-.body_right {
+.occupationBodyRight {
     width: 50%;
     height: 100%;
     align-items: center;
@@ -113,20 +112,35 @@ h1 {
 input {
     border-width: 0;
     border-radius: 5px;
-    width: 100px;
+    width: 50%;;
     display: block;
-    margin: auto;
+    margin: 10px auto;
 }
 
-.body_right button {
-    width: 50px;
+button {
+    color: white;
+    background-color: #f4b942;
+    border-width: 0;
+    padding: 1em;
+    text-align: center;
+    margin: 5px;
+    font-size: xx-small;
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: 10px auto;
+    border-radius: 8px;
+    text-align: center;
+}
+.occupationBodyRight button {
+    width: 50%;
     font-size: xx-small;
     padding: 5px;
-    margin: auto;
+    margin: 10px auto;
 }
 
-.body_right span,
-.body_left span {
+.occupationBodyRight span,
+.occupationBodyLeft span {
     text-align: center;
     color: #f4b942;
     font-size: small;

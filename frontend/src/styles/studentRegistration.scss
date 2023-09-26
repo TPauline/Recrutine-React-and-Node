@@ -1,5 +1,5 @@
-$welcomeBody-width: 100%;
-$welcomeBody-height: 100%;
+$studentRegistrationBody-width: 100%;
+$studentRegistrationBody-height: 100%;
 
 html{    height: 100%;    width:100%;}
 
@@ -15,8 +15,8 @@ html,body {
 }
 
 body {
-    height: $welcomeBody-height;
-    width: $welcomeBody-width;
+    height: $studentRegistrationBody-height;
+    width: $studentRegistrationBody-width;
     margin: auto;
     padding: auto;
     background-color: white;
@@ -25,7 +25,7 @@ body {
 }
 
 
-.welcomeNavBar {
+.studentRegistrationNavBar {
     display: inline-block;
     float: right;
     font-weight: bold;
@@ -35,7 +35,7 @@ body {
 
 }
 
-.WelcomePage {
+.studentRegistrationPage {
     margin: auto;
     height: 80%;
     width: 80%;
@@ -44,7 +44,7 @@ body {
     min-width: 500px;
 }
 
-.welcomeBody {
+.studentRegistrationBody {
     height: 80%;
     width: 80%;
     background-color: #d8ecff;
@@ -55,25 +55,25 @@ body {
     display: flex;
 }
 
-.welcomeBodyLeft {
+.studentRegistrationBodyLeft {
     width: 50%;
     align-items: center;
 }
 
-.welcomeBodyRight {
+.studentRegistrationBodyRight {
     width: 50%;
     align-items: center;
     position: relative;
 }
 
-.welcomeLogo {
+.studentRegistrationLogo {
     float: left;
     color: #2cade1;
     font-weight: bold;
     font-size: large;
 }
 
-.welcomeBodyLeft button {
+.studentRegistrationBodyLeft button {
     color: white;
     // background-color: #f4b942;
     width: 100px;
@@ -84,12 +84,12 @@ body {
     text-align: center;
 }
 
-.welcomeNavSection {
+.studentRegistrationNavSection {
     width: 100%;
     margin-bottom: 50px;
 }
 
-.welcomeBodyLeft h1 {
+.studentRegistrationBodyLeft h1 {
     font-size: 30px;
     margin-bottom: 50px;
     color: #2cade1;
